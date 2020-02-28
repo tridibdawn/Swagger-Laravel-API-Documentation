@@ -318,7 +318,7 @@ class Controller
 
 These variables will help generate the main information in documentation page header:
 
-<img src="2.png">
+<img src="images/2.png">
 
 <hr>
 
@@ -546,7 +546,7 @@ But that’s the correct way of preparing the documentation – you need to desc
 
 You may have noticed some references to external files in the comments in the Controller above. So what is __StoreProjectRequest__ there? We define all of those rules in our folder called __app/Virtual__, see the list of files:
 
-<img src="3.png">
+<img src="images/3.png">
 
 Let’s take a look inside of __app/Virtual/Models/Project.php__:
 
@@ -747,6 +747,6 @@ Ta-daaa!
 
 And if you click on any endpoint, it expands with all the parameters you provided, and even with example response – that’s the biggest beauty:
 
-<img src="1.png">
+<img src="images/1.png">
 
 Finally, a nice small thing on this documentation page is that you can click __“Try it out”__ (see top-right of the screenshot above) and it would try to actually run that API call. But keep in mind that you have to be authenticated exactly as your API requests.
